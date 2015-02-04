@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{621F69A8-0D02-407E-9537-A87C63D45ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpFeatures", "CsharpFeatures\CsharpFeatures.csproj", "{86083A0C-48FE-4A97-9B6B-76500F3E32F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitCatchFinally", "AwaitCatchFinally\AwaitCatchFinally.csproj", "{16E912F7-B5FA-4A9A-9EB7-673FDF638B63}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{621F69A8-0D02-407E-9537-A87C63D45ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621F69A8-0D02-407E-9537-A87C63D45ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621F69A8-0D02-407E-9537-A87C63D45ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621F69A8-0D02-407E-9537-A87C63D45ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86083A0C-48FE-4A97-9B6B-76500F3E32F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86083A0C-48FE-4A97-9B6B-76500F3E32F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86083A0C-48FE-4A97-9B6B-76500F3E32F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86083A0C-48FE-4A97-9B6B-76500F3E32F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E912F7-B5FA-4A9A-9EB7-673FDF638B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E912F7-B5FA-4A9A-9EB7-673FDF638B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E912F7-B5FA-4A9A-9EB7-673FDF638B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E912F7-B5FA-4A9A-9EB7-673FDF638B63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
