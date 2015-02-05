@@ -12,7 +12,7 @@ namespace CsharpFeatures
         {
             try
             {
-                _05.Runner();
+                _01.Runner();
             }
             catch (ArgumentNullException exception)
             {
